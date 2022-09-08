@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "floatRAND_000407"
+version = "0.0.1"
+authors = [
+  { name="Kanchana Senadheera", email="kanchana@senadheera.net" },
+]
+description = "Random number generator based on floating point representation"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/000407/floatRAND"
+"Bug Tracker" = "https://github.com/000407/floatRAND/issues"
